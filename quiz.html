@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quizstylesheet.css" />
+    <title>eCommerce Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-container">
+        <h1 class="quiz-headline">eCommerce Quiz</h1>
+        <h2 id="question-number">Question 1 of 3</h2>
+        <div class="quiz">
+          <div class="question active" >
+            <p>Which of the following is not a real eCommerce platform?</p>
+            <div class="answer">
+              <label>
+                <input
+                  type="radio"
+                  name="answer-q-1"
+                  value="opt1"
+                  class="radio-btn"
+                /><span "></span> Shopify
+                <br />
+              </label>
+              <label >
+                <input type="radio"  name="answer-q-1" value="opt2" class="radio-btn"
+                />
+                <span ></span>
+                WooCommerce
+                <br />
+              </label>
+
+              <label >
+                <input
+                  type="radio"
+                  class="radio-btn correct-answer"
+                  name="answer-q-1"
+                  value="correct-answer"
+                />
+                <span ></span>
+                ShopCommerce
+                <br />
+              </label>
+              <label >
+                <input type="radio" class="radio-btn" name="answer-q-1" value="opt4"  />
+                <span ></span>
+                BigCommerce
+                <br />
+              </label>
+            </div>
+          </div>
+          <div class="question hideme" >
+            <p>If Shopify is so good, why are Shopify developers necessary?</p>
+            <div class="answer">
+              <label >
+                <input type="radio" name="answer-q-2" value="opt1" class="radio-btn"/>
+                To save time on things like store setups and migrations
+                <span ></span> <br
+              /></label>
+
+              <label >
+                <input type="radio" class="radio-btn"  name="answer-q-2" value="opt2" />
+                To extend the limited design options and functionalities of
+                themes with custom code
+                <span></span><br />
+              </label>
+              <label >
+                <input type="radio"  name="answer-q-2" value="opt3" class="radio-btn" />
+                To provide support with a deep understanding of how the platform
+                works and what its limitations are
+                <span ></span> <br
+              /></label>
+              <label >
+                <input
+                  type="radio"
+                  name="answer-q-2"
+                  value="opt4 correct-answer"
+                  class="radio-btn correct-answer"
+                />
+                All the above
+                <span ></span><br />
+              </label>
+            </div>
+          </div>
+          <div class="question hideme" >
+            <p>Which of the following is true about Shopify developers?</p>
+            <div class="answer">
+              <label 
+                ><input type="radio"  name="answer-q-3" value="opt1" class="radio-btn" />
+                They are paid extremely well
+                <span ></span> <br />
+              </label>
+
+              <label >
+                <input type="radio" name="answer-q-3" value="opt2" class="radio-btn" />
+                There is a high demand for them
+                <span ></span><br />
+              </label>
+              <label >
+                <input type="radio" name="answer-q-3" value="op3" class="radio-btn"/>
+                They need to know web development, the platform itself, and the
+                liquid template language
+                <span ></span> <br
+              /></label>
+              <label >
+                <input
+                  type="radio"
+                  name="answer-q-3"
+                  value=" correct-answer"
+                  class="radio-btn correct-answer"
+                />
+                All the above
+                <span ></span><br />
+              </label>
+            </div>
+          </div>
+          <div class="question hideme">
+         
+    <p>Question 1: Which of the following is not a real eCommerce platform?
+    </p>
+    <p >Shopify </p>
+    <p>WooCommerce</p>
+    <p class="right-answer">Correct Answer: ShopCommerce</p>
+    <p>BigCommerce</p>
+    <br>
+    <p>Question 2:  If Shopify is so good, why are Shopify developers necessary?
+    </p>
+    <p>To save time on things like store setups and migrations </p>
+    <p>To extend the limited design options and functionalities of themes with custom code</p>
+    <p>To provide support with a deep understanding of how the platform works and what its limitations are</p>
+    <p class="right-answer">Correct Answer: All of the above</p>
+    <br>
+    <p>Question 3: Which of the following is true about Shopify developers?</p>
+    <p > They are paid extremely well
+
+      </p>
+    <p>There is a high demand for them</p>
+    <p>They need to know web development, the platform itself, and the liquid template language</p>
+    <p class="right-answer">Correct Answer: All of the above</p>
+          </div>
+
+
+        </div>
+        <button type="button" id="back">< Back</button>
+        <button type="button" id="next">Next ></button>
+
+      </div>
+      
+    </div>
+
+  </body>
+  <script src="quiz.js"></script>
+</html>

@@ -1,0 +1,60 @@
+h1,
+h2 {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+p {
+  font-weight: bold;
+}
+
+label {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  display: block;
+  border-bottom: white 1px solid;
+  margin: 0;
+  padding: 7px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+
+.quiz {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.active {
+  display: block;
+}
+
+.hideme,
+.score-page,
+#back,
+#submit {
+  display: none;
+}
+
+.radio-btn {
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background: white;
+  border: none;
+  display: inline-block;
+  outline: none;
+  border-radius: 50%;
+}
+
+.radio-btn:checked {
+  background-color: black;
+}
+
+.right-answer {
+  color: #4caf50;
+}
